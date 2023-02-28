@@ -1,0 +1,77 @@
+.loginpage{
+    /* height: calc(100vh); */
+    /* background-color: black; */
+    /* border: 1px solid rgb(172, 171, 171); */
+
+    /* background-color:#ad99ff;
+background-image:
+radial-gradient(at 90% 25%, hsla(325,99%,67%,1) 0px, transparent 50%),
+radial-gradient(at 59% 49%, hsla(2,99%,79%,1) 0px, transparent 50%),
+radial-gradient(at 74% 44%, hsla(168,95%,78%,1) 0px, transparent 50%),
+radial-gradient(at 34% 89%, hsla(351,82%,61%,1) 0px, transparent 50%),
+radial-gradient(at 18% 76%, hsla(127,67%,61%,1) 0px, transparent 50%),
+radial-gradient(at 5% 81%, hsla(160,83%,68%,1) 0px, transparent 50%),
+radial-gradient(at 28% 27%, hsla(315,68%,76%,1) 0px, transparent 50%);
+     */
+background-color:#f399ff;
+background-image:
+radial-gradient(at 60% 19%, hsla(325,87%,68%,1) 0px, transparent 50%),
+radial-gradient(at 4% 89%, hsla(271,98%,70%,1) 0px, transparent 50%),
+radial-gradient(at 48% 87%, hsla(250,78%,62%,1) 0px, transparent 50%),
+radial-gradient(at 46% 43%, hsla(230,85%,73%,1) 0px, transparent 50%),
+radial-gradient(at 72% 41%, hsla(161,98%,64%,1) 0px, transparent 50%),
+radial-gradient(at 17% 28%, hsla(13,94%,70%,1) 0px, transparent 50%),
+radial-gradient(at 83% 89%, hsla(60,73%,66%,1) 0px, transparent 50%);
+align-items: center;
+justify-content:center ;
+display: flex;
+}
+.login{
+    /* margin-left: 40%;
+    margin-right: 40%; */
+    margin-top: 10%;
+    margin-bottom: 20%;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    /* max-width: 400px; */
+    min-width: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    -webkit-box-shadow: 0px 7px 15px 8px rgba(0,0,0,0.23); 
+    box-shadow: 0px 7px 15px 8px rgba(0,0,0,0.23);
+}
+.imgdivlogo{
+    /* width: 30px;
+    height: 30px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logoimg{
+    width: 70%;
+
+}
+.inputlogin{
+    width: 100%;
+    padding: 5%;
+    margin-top: 3%;
+    border-radius: 30px;
+    /* border: rgb(70, 67, 67); */
+    color: #4f207a;
+    border: 1px solid rgb(122, 66, 129);
+
+}
+
+.loginbtn{
+    width: 100%;
+    border-radius: 30px;
+    padding: 5%;
+    margin-top: 5%;
+    border: white;
+}
